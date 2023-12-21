@@ -66,7 +66,7 @@ function handleHomeRoute(req, res) {
 }
 ```
 ### Not proposed to send any sort of computational data in HEADERS, HEADERS are meant to send metadata of the page
-------
+
 ### Body
 <ol>
 <li>Data sent through body is of type POST request and thus requires POSTMAN to make a POST request</li>
