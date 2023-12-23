@@ -97,6 +97,8 @@ function handleBodyInput(req, res) {
 }
 
 ```
+------
+#### Express uses out of the box support , a library called bodyParser to work with data that has been passed in body of the request. Therefore app.use(bodyParser.json()) acts a middleware which intercepts the request made, parses the data into specified format. for eg json and then relays the request further.
 
 
 
